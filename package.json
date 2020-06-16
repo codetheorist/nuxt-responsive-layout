@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": " A Nuxt plugin for choosing the layout file based on the screen size and/or orientation."
+    "url": "codetheorist/nuxt-responsive-layout"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "keywords": [
     "nuxt",
