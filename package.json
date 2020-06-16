@@ -1,0 +1,21 @@
+{
+  "name": "@codetheorist/nuxt-responsive-layout",
+  "version": "0.0.1",
+  "description": "A Nuxt plugin for choosing the layout file based on the screen size and/or orientation.",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": " A Nuxt plugin for choosing the layout file based on the screen size and/or orientation."
+  },
+  "keywords": [
+    "nuxt",
+    "responsive",
+    "layout",
+    "plugin"
+  ],
+  "author": "Alex Scott <alex@codetheoristdevelopments.co.uk>",
+  "license": "ISC"
+}
