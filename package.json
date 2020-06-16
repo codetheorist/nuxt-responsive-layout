@@ -4,8 +4,13 @@
   "description": "A Nuxt plugin for choosing the layout file based on the screen size and/or orientation.",
   "main": "lib/module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --ext .js,.vue lib",
+    "release": "standard-version && git push --follow-tags && npm publish",
+    "test": "jest test"
   },
+  "files": [
+    "lib"
+  ],
   "repository": {
     "type": "git",
     "url": "codetheorist/nuxt-responsive-layout"
@@ -20,5 +25,14 @@
     "plugin"
   ],
   "author": "Alex Scott <alex@codetheoristdevelopments.co.uk>",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^3.0.0",
+    "@nuxtjs/module-test-utils": "^1.6.1",
+    "eslint": "^7.2.0",
+    "jest": "^26.0.1",
+    "jsdom": "^16.2.2",
+    "nuxt-edge": "^2.11.1-26378723.c5d0067",
+    "standard-version": "^8.0.0"
+  }
 }
